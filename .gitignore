@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+*.sqlite3
+*.env
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Log files
+*.log
+
+# Compiled Python files
+*.pyc
+
+# Database configuration
+*.db
+
+# Secret key
+secret_key.txt
+
+# Django migrations
+**/migrations/
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore virtual environment
+venv/
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore coverage files
+.coverage
+.coverage.*
+htmlcov/
+
+# Ignore pytest cache
+__pycache__/
+.cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
