@@ -12,3 +12,13 @@ This Repository is an attempt to create a SaaS that allows user to track their w
 This project will be launched online, on a website where it is accessible to anyone. Currently it is still under development, and will be constantly updated on github (for the code) and other social medias.
 
 ## FAQs
+
+### Who can use CICO Web Application?
+
+Everyone, anyone on the internet.
+
+**With a note, after the application is ready to use**
+
+### Will CICO be free to use?
+
+Yes, CICO will be free to use by anyone.
