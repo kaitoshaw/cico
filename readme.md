@@ -16,8 +16,7 @@ This project will be launched online, on a website where it is accessible to any
 ### Who can use CICO Web Application?
 
 Everyone, anyone on the internet.
-
-_With a note, after the application is ready to use_.
+<br>_With a note, after the application is ready to use_.
 
 ### Will CICO be free to use?
 
