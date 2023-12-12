@@ -1,11 +1,39 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p> Testing here </p>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="main.css" /> -->
+        <link rel="stylesheet" href="{% static 'landing/main.css' %}">
+        <script src="{% static 'landing/main.js' %}"></script>
+        <title>C I C O</title>
+    </head>
+    <body>
+        <nav>
+            <div class="login">
+                <p
+                    style="cursor: pointer; user-select: none"
+                    onclick="redirectToLogin()"
+                >
+                    Login
+                </p>
+            </div>
+        </nav>
+        <div class="container">
+            <a href="#" class="button type--C">
+                <div class="button__line"></div>
+                <div class="button__line"></div>
+                <span class="button__text">CLOCK IN</span>
+                <div class="button__drow1"></div>
+                <div class="button__drow2"></div>
+            </a>
+        </div>
+    </body>
+    <!-- <script>
+        function redirectToLogin() {
+    window.location.href = "{% url 'login' %}";
+}
+
+    </script> -->
 </html>

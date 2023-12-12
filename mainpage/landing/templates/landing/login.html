@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="{% static 'landing/login.css' %}">
+        <title>Login Here!</title>
+    </head>
+    <body>
+        <div class="login-container">
+            <input type="text" placeholder="Username/Email" />
+            <input type="password" placeholder="Password" />
+            <button type="button">Login</button>
+            <p class="register-text">
+                Don't have an account?
+                <a href="{% url 'register' %}"
+                    >Register here</a
+                >
+            </p>
+        </div>
+    </body>
+</html>
